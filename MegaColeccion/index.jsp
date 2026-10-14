@@ -8,28 +8,42 @@
 </head>
 <body>
     <header>
-        <h1>MegaColeccion</h1>
+        <h1 >MegaColeccion</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="productos.jsp">Productos</a></li>
-            <li><a href="servicios.jsp">Servicios</a></li>
-            <li><a href="contacto.jsp">Contactos</a></li>
-        </ul>
+        
+            <a href="productos.jsp">Productos</a>
+            <a href="servicios.jsp">Servicios</a>
+            <a href="contacto.jsp">Contactos</a>
+        
     </nav>
-    <main>
-        <section>
-            <article>
-            </article>
-        </section>
+    <div class="contenido">
+        <main>
+            <section>
+                <article>
+                    <h2>Nuestra mision:</h2>
+                    <p>Como empresa buscamos ofrecer una experiencia completa para cada cliente, desde coleccionistas hasta
+                        clientes casuales, ofreciendo la mejor calidad en nuestros productos, mantenimiento o restauracion
+                        para cada necesidad combinado con una atencion personalizada para el cliente
+                    </p>
+                </article>
+            </section>
+        </main>
         <aside>
-            <a href="">Ver mas informacion en Linkedin</a>
-            <a href="https://github.com/"><img src="ico/github.png" alt="Icono Github" width="30" height="30"></a>
-
+            <div class="columna_ico">
+                <a href=""><img src="ico/linkdin.png" alt="IconoLinkedin" width="30px" height="30px"></a>
+                <a href="https://github.com/SplatDaniel/eCommerceJaramilloDaniel/tree/main/MegaColeccion"><img src="ico/github.png" alt="Icono Github" width="30" height="30"></a>
+            </div>
         </aside>
-    </main>
-
+    </div>
     <footer>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>TikTok</li>
+        </ul>
+
+
         <p>&copy; 2026 Daniel Jaramillo</p>
     </footer>
 </body>

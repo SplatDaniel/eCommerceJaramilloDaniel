@@ -11,20 +11,32 @@
         <a href="index.jsp"><h1>MegaColeccion</h1></a>
     </header>
     <nav>
-        <ul>
-            <li><a href="productos.jsp">Productos</a></li>
-            <li><a href="servicios.jsp">Servicios</a></li>
-            <li><a href="contacto.jsp">Contactos</a></li>
-        </ul>
+            <a class="active" href="productos.jsp">Productos</a>
+            <a href="servicios.jsp">Servicios</a>
+            <a href="contacto.jsp">Contactos</a>
     </nav>
-    <main>
-        <section>
-            <article>
-                <h2>Darth Vader</h2>
-                <img src="imgs/darth_vader.png" alt="" width="300" height="300">
-            </article>
-        </section>
-    </main>
+    
+    <div class="contenido">
+        <main>
+            <section>
+                <article>
+                    <h2>Darth Vader</h2>
+                    <img src="imgs/darth_vader.png" alt="darth_vader" width="300" height="300">
+                </article>
+
+                <article>
+                    <h2>Batman</h2>
+                    <img src="imgs/batman.png" alt="Batman" width="300" height="300">
+                </article>
+            </section>
+        </main>
+        <aside>
+            <div class="columna_ico">
+                <a href=""><img src="ico/linkdin.png" alt="IconoLinkedin" width="30" height="30"></a>
+                <a href="https://github.com/SplatDaniel/eCommerceJaramilloDaniel/tree/main/MegaColeccion"><img src="ico/github.png" alt="Icono Github" width="30" height="30"></a>
+            </div>
+        </aside>
+    </div>
 
     <footer>
         <h4> Contactanos </h4>

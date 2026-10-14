@@ -11,19 +11,25 @@
         <h1>MegaColeccion</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="productos.jsp">Productos</a></li>
-            <li><a href="servicios.jsp">Servicios</a></li>
-            <li><a href="contacto.jsp">Contactos</a></li>
-        </ul>
+        <a href="productos.jsp">Productos</a>
+        <a href="servicios.jsp">Servicios</a>
+        <a class="active" href="contacto.jsp">Contactos</a>
     </nav>
+    
+    <div class="contenido">
     <main>
         <section>
             <article>
-                
             </article>
         </section>
     </main>
+    <aside>
+        <div class="columna_ico">
+            <a href=""><img src="ico/linkdin.png" alt="IconoLinkedin" width="30px" height="30px"></a>
+            <a href="https://github.com/SplatDaniel/eCommerceJaramilloDaniel/tree/main/MegaColeccion"><img src="ico/github.png" alt="Icono Github" width="30" height="30"></a>
+        </div>
+    </aside>
+    </div>
 
     <footer>
         <h4> Contactanos </h4>
